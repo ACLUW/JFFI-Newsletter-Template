@@ -7,6 +7,7 @@ A reusable browser preview and production-safe HTML email for Jesus Foundation F
 - `index.html` is the polished browser preview. It includes Desktop/Mobile preview controls and the complete monthly content structure.
 - `styles.css` contains the browser-only responsive design system.
 - `newsletter-email.html` is the email-safe version for Gmail, Outlook, Apple Mail and Mailchimp workflows. It is JavaScript-free, web-font-free, table-based, and keeps critical styles inline with a small mobile media query.
+- `JFFI Newsletter Content Questionnaire.docx` is a Word questionnaire for gathering the monthly content before updating the template.
 - `assets/` contains named placeholders for supplied or approved imagery.
 
 ## Preview
@@ -22,6 +23,8 @@ Then visit `http://localhost:8000/`. Open `newsletter-email.html` separately to 
 ## Monthly updates
 
 In both HTML files, search for `ACL:` and the bracketed placeholders. Update the month, hero theme, introduction, verse, reflection, pastoral message, event cards, announcement, testimony and image references. The persistent links are listed in the opening comment of `index.html`; confirmed URLs should not be replaced with `#`.
+
+Use `JFFI Newsletter Content Questionnaire.docx` before editing the templates. It collects the issue details, monthly theme, pastoral message, devotional, events, announcement, testimony, leadership details, links, image approvals and final email checklist in one place.
 
 Replace the files in `assets/` with approved images while keeping the organised filenames: `jffi-logo.png`, `hero-worship.jpg`, `pastor-chibuzor.jpg`, `event-1.jpg`, `event-2.jpg`, `event-3.jpg`, and `testimony.jpg`. Add meaningful `alt` text when adding real images. The browser preview uses the local JFFI logo asset. The production email uses the absolute `https://www.jffi.org/logo.png` logo URL so Gmail, Outlook and Mailchimp can load it after the email is imported.
 
