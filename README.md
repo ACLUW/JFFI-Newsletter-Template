@@ -1,12 +1,12 @@
 # JFFI Monthly Newsletter Template
 
-A reusable browser preview and production-safe HTML email for Jesus Foundation Family International. The design is warm, spacious and community-focused, with navy, royal blue, off-white and restrained gold accents.
+A reusable browser preview and production-safe HTML email for Jesus Foundation Family International. The design uses a JFFI-aligned palette: deep navy, royal blue, ministry gold, warm white and clear neutral text.
 
 ## Files
 
 - `index.html` is the polished browser preview. It includes Desktop/Mobile preview controls and the complete monthly content structure.
 - `styles.css` contains the browser-only responsive design system.
-- `newsletter-email.html` is the JavaScript-free, table-based version for Gmail, Outlook, Apple Mail and Mailchimp workflows. Its critical styles are inline, with a small mobile media query.
+- `newsletter-email.html` is the email-safe version for Gmail, Outlook, Apple Mail and Mailchimp workflows. It is JavaScript-free, web-font-free, table-based, and keeps critical styles inline with a small mobile media query.
 - `assets/` contains named placeholders for supplied or approved imagery.
 
 ## Preview
@@ -30,3 +30,11 @@ Replace the files in `assets/` with approved images while keeping the organised 
 Check every CTA in a browser, especially the Zoom, website, social, `tel:` and `mailto:` links. Preview at 320px, 375px, 768px and desktop widths and look for overflow. Send `newsletter-email.html` to a test list before publishing, checking Gmail web/mobile, Outlook and Apple Mail.
 
 HTML email support varies. Avoid relying on JavaScript, web fonts, CSS grid, flexbox or background images in the production file. Outlook may render some spacing and font details differently. For Mailchimp, paste the contents of `newsletter-email.html` into a custom HTML/code block or import it as a template, then replace the unsubscribe and preferences placeholders with Mailchimp's merge tags before sending. Do not send the literal placeholders in a live campaign.
+
+## Theme colors
+
+- Deep navy: `#071C35`
+- Royal blue: `#1456A0`
+- Ministry gold: `#D8A84E`
+- Warm white: `#F7F4EC`
+- Neutral text: `#172331`
