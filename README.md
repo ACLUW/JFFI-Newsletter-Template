@@ -1,6 +1,6 @@
 # JFFI Monthly Newsletter Template
 
-A reusable browser preview and production-safe HTML email for Jesus Foundation Family International. The design uses a JFFI-aligned palette: deep navy, royal blue, ministry gold, warm white and clear neutral text.
+A reusable browser preview and production-safe HTML email for Jesus Foundation Family International. The design uses the live JFFI website palette: brand purple, brand blue, warm orange accents, clean whites and clear neutral text.
 
 ## Files
 
@@ -23,7 +23,7 @@ Then visit `http://localhost:8000/`. Open `newsletter-email.html` separately to 
 
 In both HTML files, search for `ACL:` and the bracketed placeholders. Update the month, hero theme, introduction, verse, reflection, pastoral message, event cards, announcement, testimony and image references. The persistent links are listed in the opening comment of `index.html`; confirmed URLs should not be replaced with `#`.
 
-Replace the files in `assets/` with approved images while keeping the organised filenames: `jffi-logo.png`, `hero-worship.jpg`, `pastor-chibuzor.jpg`, `event-1.jpg`, `event-2.jpg`, `event-3.jpg`, and `testimony.jpg`. Add meaningful `alt` text when adding real images. The current preview uses accessible, local CSS placeholders so it does not hotlink imagery.
+Replace the files in `assets/` with approved images while keeping the organised filenames: `jffi-logo.png`, `hero-worship.jpg`, `pastor-chibuzor.jpg`, `event-1.jpg`, `event-2.jpg`, `event-3.jpg`, and `testimony.jpg`. Add meaningful `alt` text when adding real images. The browser preview uses the local JFFI logo asset. The production email uses the absolute `https://www.jffi.org/logo.png` logo URL so Gmail, Outlook and Mailchimp can load it after the email is imported.
 
 ## Testing and sending
 
@@ -33,8 +33,8 @@ HTML email support varies. Avoid relying on JavaScript, web fonts, CSS grid, fle
 
 ## Theme colors
 
-- Deep navy: `#071C35`
-- Royal blue: `#1456A0`
-- Ministry gold: `#D8A84E`
-- Warm white: `#F7F4EC`
+- Brand purple: `#7B3FF2`
+- Brand blue: `#2E86DE`
+- Brand red: `#EE5A24`
+- Brand orange: `#FF9F43`
 - Neutral text: `#172331`
